@@ -1,0 +1,35 @@
+{
+    "name": "ste-package-demo",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "description": "A demo package for STE",
+    "scripts": {
+        "build": "tsc",
+        "ci": "npm run build",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stefanscript/ste-package-demo.git"
+    },
+    "files": [
+        "dist"
+    ],
+    "type": "module",
+    "homepage": "https://github.com/stefanscript/ste-package-demo",
+    "bugs": {
+        "url": "https://github.com/stefanscript/ste-package-demo/issues"
+    },
+    "keywords": [
+        "Typescript",
+        "JavaScript",
+        "Demo",
+        "Package"
+    ],
+    "author": "Stefan A",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.6.2",
+        "typescript": "^5.8.3"
+    }
+}
