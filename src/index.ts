@@ -1,1 +1,1 @@
-export { getCurrentTimestamp } from './utils.js';
+export { getCurrentTimestamp } from "./utils.js";
